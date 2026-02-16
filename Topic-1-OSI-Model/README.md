@@ -1,3 +1,4 @@
+
 # Topic 1: OSI Model (Platforms and Network Technologies)
 
 ## What this topic is about
@@ -20,18 +21,25 @@ Common elements:
 - Router (connects networks; LAN to internet)
 - Access Point (Wi-Fi connection)
 - Firewall (filters traffic)
-
 ---
 
 ## Objective 2: Parts of a networking model (OSI and TCP/IP)
-### OSI (7 layers)
-7. Application  
-6. Presentation  
-5. Session  
-4. Transport  
-3. Network  
-2. Data Link  
-1. Physical  
+
+## 🧱 The 7 OSI Layers (Top → Bottom)
+
+---
+
+## 📘 Layer Breakdown
+
+| Layer | Name | Key Responsibility | Example |
+|-------|------|-------------------|---------|
+| 7 | Application | User-facing network services | HTTP, FTP |
+| 6 | Presentation | Data formatting, encryption | SSL/TLS |
+| 5 | Session | Manages sessions | API sessions |
+| 4 | Transport | Reliable transmission | TCP, UDP |
+| 3 | Network | Logical addressing & routing | IP |
+| 2 | Data Link | MAC addressing | Ethernet |
+| 1 | Physical | Physical transmission | Cables, Signals |  
 
 ### TCP/IP (4 layers)
 - Application
