@@ -1,27 +1,27 @@
-# 🖥 Packet Tracer Lab: SOHO Network Implementation
-
-## 🏢 Scenario Overview
-
-To apply the networking concepts learned in the OSI model, I completed a hands-on lab using Cisco Packet Tracer.
-
-The scenario involved designing a small office network for a startup business called **Sonoran Timber Studio**, a custom woodworking company based in Phoenix, Arizona.
-
-The company operates with fewer than ten employees and relies on a basic SOHO (Small Office / Home Office) network setup.
-
-My role was to modify and test the existing network topology to support new devices and ensure proper connectivity.
+# 🖥 Packet Tracer Lab: Building a SOHO Network
 
 ---
 
-## 🔧 Network Modifications Performed
+## 🏢 The Scenario
 
-### ➤ Added New Devices
+After learning how the OSI model structures network communication, I wanted to see what that looked like in practice.
 
-Using the Physical layout view:
+In this lab, I stepped into the role of an IT consultant for a small startup called **Sonoran Timber Studio**, a custom woodworking business based in Phoenix, Arizona.
 
-- Added a new PC to the conference room
-- Added a new laptop to the foyer area
+The company operates with fewer than ten employees but is preparing to grow. My task was to update and test their Small Office / Home Office (SOHO) network to support new devices and ensure reliable connectivity.
 
-This simulated business growth and required updating the network infrastructure.
+Instead of just reading about network layers, this lab required me to actually build and configure part of the network myself.
+
+---
+
+## 🛠 Stepping Into the Network
+
+I began by exploring both views in Packet Tracer:
+
+- **Physical View** – showing the office layout and device placement  
+- **Logical View** – showing how devices are connected in the topology  
+
+Switching between these views helped me understand how real-world placement relates to network structure.
 
 ---
 
