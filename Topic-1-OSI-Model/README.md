@@ -116,3 +116,9 @@ Example design:
 - Guests on a Guest Wi-Fi network
 - Firewall/router controls access between networks
 
+---
+
+## 🔗 Related Lab
+
+- [Packet Tracer SOHO Lab](SOHO-Lab.md)
+
