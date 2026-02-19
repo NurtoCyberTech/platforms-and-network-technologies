@@ -81,5 +81,6 @@ The design incorporates:
 
 ## 📷 Network Diagram
 
-![Network Diagram Phase 1](images/network-diagram-phase1.png)
+[📄 View Network Diagram (PDF)](images/network-diagram-phase-1.pdf)
+
 
