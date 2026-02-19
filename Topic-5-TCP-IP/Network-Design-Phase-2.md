@@ -74,11 +74,9 @@ This design followed best practices:
 
 ---
 
-## 📷 Network Diagram
+## 📷 Network Diagram (Phase 2)
 
-*(Insert Phase 2 diagram screenshot here)*
-
-![Phase 2 Network Diagram](images/phase2-diagram.png)
+![Network Diagram Phase 2](images/phase2-network-diagram.png)
 
 ---
 
