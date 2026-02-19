@@ -92,3 +92,66 @@ Everything depends on:
 
 Once those pieces clicked, network communication started making sense.
 
+---
+
+## 🧩 OSI vs TCP/IP (How they match up)
+
+### OSI Model (7 layers)
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+
+### TCP/IP Model (4 layers)
+Application
+Transport
+Internet
+Network Access
+
+### How they map
+| OSI Layer | TCP/IP Layer |
+|----------|--------------|
+| Application + Presentation + Session | Application |
+| Transport | Transport |
+| Network | Internet |
+| Data Link + Physical | Network Access |
+
+---
+
+## 🧮 Subnetting Practice (Worked Example)
+
+### Example: Split 192.168.10.0/24 into 4 equal subnets
+
+A `/24` network has 256 addresses total (0–255).
+To create 4 subnets, I “borrow” 2 bits (because 2 bits = 4 subnets).
+
+So the new prefix becomes:
+
+- **/24 + 2 = /26**
+
+Each `/26` subnet has:
+- 64 total addresses (because 256 / 4 = 64)
+- 62 usable host addresses (network + broadcast are reserved)
+
+#### The 4 subnets:
+1. **192.168.10.0/26**
+   - Usable: 192.168.10.1 – 192.168.10.62
+   - Broadcast: 192.168.10.63
+
+2. **192.168.10.64/26**
+   - Usable: 192.168.10.65 – 192.168.10.126
+   - Broadcast: 192.168.10.127
+
+3. **192.168.10.128/26**
+   - Usable: 192.168.10.129 – 192.168.10.190
+   - Broadcast: 192.168.10.191
+
+4. **192.168.10.192/26**
+   - Usable: 192.168.10.193 – 192.168.10.254
+   - Broadcast: 192.168.10.255
+
+✅ This example helped me see subnetting as a pattern, not something to memorize.
+
