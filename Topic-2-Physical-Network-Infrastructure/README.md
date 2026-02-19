@@ -79,3 +79,13 @@ These standards define how data is transmitted over different physical mediums.
 - 📖 [UTP vs STP Cable Analysis](UTP-vs-STP.md)
 - 🛠 [Packet Tracer Part 2: Patching & Infrastructure Upgrade](Patching-Lab.md)
 
+---
+
+## 💭 Reflection
+
+Topic 2 shifted my focus from logical networking theory to the physical components that make communication possible.
+
+Understanding structured cabling, patch panels, switches, and Ethernet standards helped me see how infrastructure design directly affects performance and scalability.
+
+This topic reinforced that reliable networks are built from the ground up — starting with proper physical implementation.
+
