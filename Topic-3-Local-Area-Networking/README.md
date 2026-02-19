@@ -75,6 +75,14 @@ For example:
 - VLAN 4 → MANAGEMENT
 
 Even though the devices share the same physical switch, they behave as if they are on separate networks.
+---
+
+## 🖼 VLAN Topology Overview
+
+![VLAN Topology Diagram](images/vlan-topology.png)
+
+This diagram shows how a single physical switch can logically separate devices into different VLANs.
+Devices in VLAN 2 cannot directly communicate with devices in VLAN 4 without routing.
 
 ---
 
@@ -106,4 +114,14 @@ By placing each department into its own VLAN:
 - Policies can be applied per department.
 
 This improves both organization and security.
+
+---
+
+## 💭 Topic Reflection
+
+Before this topic, I understood that switches connect devices, but I did not fully understand how segmentation works inside a LAN.
+
+Learning about VLANs and trunking helped me see how businesses organize traffic logically without needing separate physical networks.
+
+This topic strengthened my understanding of Layer 2 switching and broadcast domains in a practical way.
 
