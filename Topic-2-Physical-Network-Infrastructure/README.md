@@ -15,6 +15,23 @@ In this topic, I moved beyond theoretical networking concepts and focused on the
 While Topic 1 explored how data moves logically through layers, this topic focuses on what actually connects everything together — cables, switches, patch panels, routers, and access points.
 
 Understanding both physical and logical layouts is essential for designing reliable networks.
+---
+
+## 🖼 Physical Network Layout Example
+
+![Physical Network Diagram](images/physical-network-diagram.png)
+
+This diagram represents a structured small business network. 
+
+Unlike a simple SOHO router setup, this design separates infrastructure into dedicated components:
+
+- Patch panels for cable management  
+- Switches for internal traffic  
+- Access points for wireless connectivity  
+- Routers for WAN routing  
+- Modems for ISP connectivity  
+
+This structured approach improves scalability, reliability, and organization.
 
 ---
 
