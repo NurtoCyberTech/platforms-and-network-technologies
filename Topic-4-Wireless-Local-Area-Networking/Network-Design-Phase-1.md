@@ -80,8 +80,9 @@ The design incorporates:
 ---
 
 ## 📷 Network Diagram
+![Network Diagram Phase 1](images/network-diagram-phase1-v2.png)
 
-![Network Diagram Phase 1](images/network-diagram-phase1.png)
+
 
 
 
