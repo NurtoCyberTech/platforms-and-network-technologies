@@ -44,6 +44,33 @@ By completing this topic, I learned to:
 - Explain the core technologies behind data communication
 - Configure and patch physical network devices
 - Transition from a SOHO setup to small business infrastructure
+---
+
+## 🌐 Ethernet Standards in Modern Networks
+
+Modern business networks rely on standardized Ethernet speeds and cable categories.
+
+### 📌 Common Cable Categories
+
+| Category | Maximum Speed | Maximum Distance | Typical Use |
+|----------|--------------|------------------|-------------|
+| Cat5e | 1 Gbps | 100 meters | Basic office networks |
+| Cat6 | 1–10 Gbps | 100m (1 Gbps) / 55m (10 Gbps) | Modern business networks |
+| Cat6a | 10 Gbps | 100 meters | High-performance environments |
+
+---
+
+### 📡 Ethernet Standards
+
+| Standard | Speed | Medium |
+|----------|-------|--------|
+| 100BASE-TX | 100 Mbps | Twisted Pair |
+| 1000BASE-T | 1 Gbps | Twisted Pair |
+| 10GBASE-T | 10 Gbps | Twisted Pair |
+| 1000BASE-SX | 1 Gbps | Fiber |
+| 10GBASE-SR | 10 Gbps | Fiber |
+
+These standards define how data is transmitted over different physical mediums.
 
 ---
 
