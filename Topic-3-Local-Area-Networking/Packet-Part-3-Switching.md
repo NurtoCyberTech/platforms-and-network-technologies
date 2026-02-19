@@ -86,25 +86,12 @@ Trunk ports:
 - Included interface descriptions for clarity
 
 Trunks are essential when VLAN traffic must travel between switches.
+
 ---
 
-## 🔀 How Trunking Works
+## 🔀 VLAN Trunking Between Switches
 
-When multiple VLANs need to travel between switches, trunk ports are used.
-
-    SWITCH 1                SWITCH 2
-  +-----------+           +-----------+
-  | VLAN 2    |-----------| VLAN 2    |
-  | VLAN 4    |===========| VLAN 4    |
-  +-----------+   TRUNK   +-----------+
-
-A trunk port carries traffic for multiple VLANs over a single connection.
-
-Without trunking:
-- VLAN 2 devices on Switch 1 could not communicate with VLAN 2 devices on Switch 2.
-- VLAN segmentation would break across switches.
-
-Trunking keeps VLAN structure consistent across the network.
+![VLAN Trunking Diagram](images/vlan-trunking.png)
 
 ---
 
