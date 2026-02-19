@@ -24,6 +24,26 @@ The key difference between UTP and STP is shielding.
 - **STP** includes extra shielding (foil or braided metal) around the twisted pairs.
 
 The twisting of wires already helps reduce interference, but STP adds another protective layer.
+---
+
+## 📊 Cable Comparison Table
+
+| Feature | UTP (Unshielded Twisted Pair) | STP (Shielded Twisted Pair) |
+|----------|------------------------------|------------------------------|
+| Cost | Lower | Higher |
+| Shielding | None | Foil or braided shield |
+| EMI Protection | Moderate | High |
+| Flexibility | More flexible | Slightly thicker/stiffer |
+| Installation Complexity | Easier | Requires grounding |
+| Common Usage | Office networks | Industrial environments |
+
+---
+
+### 🏢 Which Is More Common?
+
+In most modern business offices, **UTP is more widely used** because it provides sufficient protection for low-interference environments while keeping costs manageable.
+
+STP becomes valuable in environments where interference could disrupt critical communication.
 
 ---
 
