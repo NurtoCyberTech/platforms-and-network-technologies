@@ -42,6 +42,29 @@ Instead of guessing where a failure occurs, I follow a layered approach that iso
 This visual framework ensures that troubleshooting is systematic rather than reactive.
 
 By starting at the Physical layer and working upward, issues can be identified efficiently without overlooking foundational problems.
+---
+
+## 🌐 Understanding the DHCP Process (D.O.R.A.)
+
+Dynamic Host Configuration Protocol (DHCP) allows devices to automatically receive IP configuration when joining a network.
+
+Instead of manually assigning IP addresses, DHCP handles addressing through a four-step process commonly remembered as **D.O.R.A.**
+
+![DHCP DORA Process](images/dhcp-dora-process.png)
+
+### D – Discover
+The client broadcasts a request asking for an IP address.
+
+### O – Offer
+The DHCP server responds with an available IP address.
+
+### R – Request
+The client requests to use the offered IP address.
+
+### A – Acknowledge
+The server confirms and assigns the IP configuration.
+
+This automated process makes networks scalable and easier to manage.
 
 ---
 
