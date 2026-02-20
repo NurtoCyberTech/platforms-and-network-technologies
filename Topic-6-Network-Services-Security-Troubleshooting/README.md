@@ -1,5 +1,23 @@
 # 🔐 Topic 6: Network Services, Security, & Troubleshooting
 
+![Networking](https://img.shields.io/badge/domain-networking-blue)
+![Security](https://img.shields.io/badge/focus-security-red)
+![Services](https://img.shields.io/badge/services-DHCP%20%7C%20DNS%20%7C%20NTP-green)
+![Tools](https://img.shields.io/badge/tools-ping%20%7C%20ipconfig%20%7C%20nslookup-lightgrey)
+
+---
+
+## 📖 Quick Navigation
+
+- [Troubleshooting Framework](#-osi-based-troubleshooting-framework)
+- [DHCP Process (DORA)](#-understanding-the-dhcp-process-dora)
+- [Network Services Architecture](#-network-services-architecture-how-it-all-fits)
+- [Cybersecurity Threat Breakdown](#-common-cybersecurity-threats)
+- [Command-Line Toolkit](#-network-troubleshooting-command-line-toolkit)
+- [Related Work](#-related-work)
+- [Final Reflection](#-final-reflection)
+
+---
 > 📌 This topic explores how modern networks deliver core services, defend against cybersecurity threats, and resolve connectivity issues using structured troubleshooting.
 
 - 📖 [Overview](Topic-6-Network-Services-Security-Troubleshooting/README.md)
@@ -18,6 +36,16 @@ While earlier topics explored how networks are built, this topic focused on:
 - How organizations protect infrastructure from cyber threats
 
 This topic connects technical configuration with security awareness and real-world troubleshooting strategy.
+---
+
+## 🧭 Big Idea of This Topic
+
+If networking is “getting devices connected,” then **services and security** are what make the network usable and trustworthy.
+
+- **DHCP** answers: “How does a device get an IP?”
+- **DNS** answers: “How do names turn into IP addresses?”
+- **Troubleshooting** answers: “How do I find what’s broken?”
+- **Security** answers: “How do I keep this stable and safe?”
 
 ---
 
@@ -109,14 +137,15 @@ To protect network services:
 - Regular patching reduces vulnerabilities
 
 ---
+## 📚 Topics Covered
 
-## 📚 Topic Sections
+### Topic 6: Network Services, Security, & Troubleshooting
+- 📖 [Overview](Topic-6-Network-Services-Security-Troubleshooting/README.md)
+- 🧠 [Discussion](Topic-6-Network-Services-Security-Troubleshooting/Discussion-Responses.md)
+- 🖥 [Packet Tracer Lab](Topic-6-Network-Services-Security-Troubleshooting/Packet-Tracer-Part-5-Server.md)
+- 🏢 [Vendors & Partners](Topic-6-Network-Services-Security-Troubleshooting/Equipment-Vendors-and-Partners.md)
 
-- 🧠 [Discussion Responses](Discussion-Responses.md)
-- 🏢 [Equipment, Vendors, and Cybersecurity Partners](Equipment-Vendors-and-Partners.md)
-- 🖥 [Packet Tracer Part 5 – Server Configuration](Packet-Tracer-Part-5-Server.md)
-
----
+----
 
 ## 🔎 Why This Topic Matters
 
@@ -143,6 +172,18 @@ Understanding services like DHCP and DNS, combined with systematic troubleshooti
 Effective troubleshooting requires more than theory — it requires the right tools.
 
 Here are foundational commands I used to verify connectivity and diagnose issues:
+---
+
+## 🧾 Quick Command Reference Card
+
+| Goal | Command | What it tells you |
+|------|---------|-------------------|
+| Check IP info | `ipconfig /all` | IP, gateway, DNS, DHCP lease |
+| Test reachability | `ping <ip>` | Can I reach the host? |
+| Test name resolution | `nslookup <name>` | Does DNS resolve correctly? |
+| Check VLANs (switch) | `show vlan brief` | Which ports belong to which VLAN? |
+| Check interfaces | `show ip interface brief` | Up/down status + IPs |
+| View config | `show running-config` | What is the switch/router actually set to? |
 
 ---
 
@@ -196,6 +237,15 @@ Used to verify:
 
 These tools allow administrators to systematically isolate problems using OSI-based troubleshooting.
 
+---
+
+## 🔗 Related Work
+
+- 🧠 [Discussion Responses](Discussion-Responses.md)
+- 🏢 [Equipment, Vendors, and Cybersecurity Partners](Equipment-Vendors-and-Partners.md)
+- 🖥 [Packet Tracer Part 5 – Server Configuration](Packet-Tracer-Part-5-Server.md)
+
+[⬅ Back to Main Home](../README.md)
 
 
 
