@@ -26,6 +26,32 @@ This topic connects technical configuration with security awareness and real-wor
 - Explore cybersecurity partnerships and defense frameworks
 - Apply the OSI model to troubleshoot connectivity issues
 - Use command-line tools to verify network health
+---
+
+## 🔄 Structured Troubleshooting Process
+
+When diagnosing network issues, I use a layered approach based on the OSI model.
+
+User reports problem
+↓
+Check Physical Layer
+(Cables, link lights, Wi-Fi signal)
+↓
+Check Data Link Layer
+(VLAN, MAC table, switch ports)
+↓
+Check Network Layer
+(IP address, subnet mask, gateway)
+↓
+Check Transport Layer
+(Ports open? TCP/UDP reachable?)
+↓
+Check Application Layer
+(DNS resolution? Service running?)
+↓
+Issue Identified & Resolved
+
+This structured method prevents guesswork and allows systematic isolation of issues.
 
 ---
 
