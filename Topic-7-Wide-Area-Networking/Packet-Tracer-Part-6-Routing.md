@@ -66,6 +66,27 @@ Tracking packet flow reinforced understanding of how WAN traffic moves across ne
 
 ---
 
+## 🔐 TCP 3-Way Handshake (Connection Establishment)
+
+Before any data is transferred across a WAN, a TCP session must first be established.
+
+![TCP Three-Way Handshake](images/tcp-three-way-handshake-diagram.png)
+
+### Step 1 – SYN  
+The client initiates communication by sending a SYN (synchronize) packet.
+
+### Step 2 – SYN-ACK  
+The server responds with a SYN-ACK, acknowledging the request and agreeing to establish communication.
+
+### Step 3 – ACK  
+The client sends an ACK, confirming the connection.
+
+Once this three-step exchange is complete, the connection is established and data transfer can begin.
+
+Understanding this process is critical when troubleshooting WAN connectivity and firewall behavior.
+
+---
+
 ## 💡 Key Skills Reinforced
 
 - VLAN trunking
