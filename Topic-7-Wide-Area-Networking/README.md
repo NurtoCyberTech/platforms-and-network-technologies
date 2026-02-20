@@ -31,6 +31,26 @@ This topic focused on:
 
 ---
 
+## 🌐 WAN Topologies Comparison
+
+When connecting multiple locations, the chosen WAN topology directly impacts performance, cost, and fault tolerance.
+
+![WAN Topologies – Hub vs Mesh](images/wan-topologies-hub-vs-mesh.png)
+
+### Hub-and-Spoke
+- Centralized control
+- Lower cost
+- Easier to manage
+- Single point of failure at the hub
+
+### Mesh
+- Multiple redundant paths
+- Higher reliability
+- Lower branch-to-branch latency
+- More complex and expensive
+
+---
+
 ## 📚 Topic Sections
 
 - 🧠 [Discussion Responses](Discussion-Responses.md)
