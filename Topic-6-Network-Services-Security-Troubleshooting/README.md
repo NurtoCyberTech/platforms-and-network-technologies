@@ -1,6 +1,6 @@
 # 🔐 Topic 6: Network Services, Security, & Troubleshooting
 
-> 📌 This topic explores how modern networks deliver services, defend against threats, and resolve connectivity issues efficiently.
+> 📌 This topic explores how modern networks deliver core services, defend against cybersecurity threats, and resolve connectivity issues using structured troubleshooting.
 
 - 📖 [Overview](Topic-6-Network-Services-Security-Troubleshooting/README.md)
 
@@ -28,6 +28,15 @@ This topic connects technical configuration with security awareness and real-wor
 - Explore cybersecurity partnerships and defense frameworks
 - Apply the OSI model to troubleshoot connectivity issues
 - Use command-line tools to verify network health
+---
+
+## 📖 Quick Navigation
+
+- 🔄 Troubleshooting Framework
+- 🌐 DHCP (DORA) Process
+- 🛡 Cybersecurity Threats
+- 🧰 Command-Line Toolkit
+- 🖥 Packet Tracer Lab
 
 ---
 
@@ -127,6 +136,65 @@ It reinforced that networking is not just about connectivity — it is about rel
 Understanding services like DHCP and DNS, combined with systematic troubleshooting, creates a strong foundation for secure network administration.
 
 
+---
+
+## 🧰 Network Troubleshooting Command-Line Toolkit
+
+Effective troubleshooting requires more than theory — it requires the right tools.
+
+Here are foundational commands I used to verify connectivity and diagnose issues:
+
+---
+
+### 🔍 IP Configuration
+
+ipconfig
+ipconfig /all
+
+Used to verify:
+- Assigned IP address
+- Subnet mask
+- Default gateway
+- DNS server
+
+---
+
+### 🌐 Connectivity Testing
+
+ping <IP address>
+ping <hostname>
+
+Used to test:
+- Reachability
+- Packet loss
+- Network path functionality
+
+---
+
+### 🔎 DNS Verification
+
+nslookup <hostname>
+
+Used to confirm:
+- Proper DNS resolution
+- Correct A record mapping
+
+---
+
+### 🛠 Switch Configuration Review
+
+show running-config
+show vlan brief
+show ip interface brief
+
+Used to verify:
+- VLAN assignments
+- Interface status
+- Configuration accuracy
+
+---
+
+These tools allow administrators to systematically isolate problems using OSI-based troubleshooting.
 
 
 
