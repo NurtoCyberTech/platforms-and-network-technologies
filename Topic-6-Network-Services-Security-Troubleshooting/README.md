@@ -105,6 +105,26 @@ This automated process makes networks scalable and easier to manage.
 
 ---
 
+## 🧩 Network Services Architecture Diagram
+
+Understanding how network services fit together is critical for both troubleshooting and security.
+
+The diagram below illustrates how routing, switching, VLAN segmentation, DHCP, and DNS services interact within a structured small-business network.
+
+![Network Services Architecture](images/network-services-architecture-diagram.png)
+
+### Key Concepts Shown in the Diagram
+
+- The **Router/Firewall** acts as the gateway and security boundary.
+- The **Switch** provides VLAN segmentation.
+- **VLAN 2 (Internal/Data Network)** supports employee devices and printers.
+- **Guest Wi-Fi VLAN 10** isolates external users from internal resources.
+- The **Server** provides DHCP and DNS services for internal name resolution and automatic IP assignment.
+
+This layered structure improves both performance and security by separating internal and guest traffic.
+
+---
+
 ## 🛡 Common Cybersecurity Threats
 
 Understanding network services also means understanding how they can be attacked.
