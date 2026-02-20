@@ -1,5 +1,7 @@
 # 🔐 Topic 6: Network Services, Security, & Troubleshooting
 
+> 📌 This topic explores how modern networks deliver services, defend against threats, and resolve connectivity issues efficiently.
+
 - 📖 [Overview](Topic-6-Network-Services-Security-Troubleshooting/README.md)
 
 ---
@@ -52,6 +54,38 @@ Check Application Layer
 Issue Identified & Resolved
 
 This structured method prevents guesswork and allows systematic isolation of issues.
+---
+
+## 🛡 Common Cybersecurity Threats
+
+Understanding network services also means understanding how they can be attacked.
+
+### 🔓 Phishing
+Attackers trick users into revealing credentials through deceptive emails or websites.
+
+### 🦠 Malware
+Malicious software designed to damage systems or steal data.
+
+### 🔐 Ransomware
+Encrypts company data and demands payment for release.
+
+### 🌐 Distributed Denial of Service (DDoS)
+Overwhelms servers with traffic to disrupt service.
+
+### 🔍 Man-in-the-Middle (MITM)
+Intercepts communication between two devices to steal or alter information.
+
+---
+
+## 🧰 Defensive Measures
+
+To protect network services:
+
+- Firewalls filter traffic
+- VPNs encrypt remote connections
+- Antivirus software protects endpoints
+- IDS/IPS systems monitor suspicious activity
+- Regular patching reduces vulnerabilities
 
 ---
 
@@ -70,6 +104,15 @@ Network services are the invisible systems that allow everything to function smo
 This topic helped me understand that networking is not just about cables and routers — it is about reliability, structure, and protection.
 
 
+---
+
+## 📘 Final Reflection
+
+Topic 6 connected infrastructure, services, and security into one unified perspective.
+
+It reinforced that networking is not just about connectivity — it is about reliability, protection, and structured problem-solving.
+
+Understanding services like DHCP and DNS, combined with systematic troubleshooting, creates a strong foundation for secure network administration.
 
 
 
